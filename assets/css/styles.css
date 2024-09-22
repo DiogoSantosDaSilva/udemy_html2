@@ -1,51 +1,15 @@
-.heading {
-    transition: all 300ms ease-in-out;
+p:nth-child(odd) {
+    background-color: rebeccapurple;
 }
 
-.heading:hover {
-    background: red;
+p:nth-child(even) {
+    background-color: darkturquoise;
 }
 
-a {
-    color: darkorange;
+p:nth-child(3n) {
+    background-color: darkolivegreen;
 }
 
-a:link {
-    color: deeppink;
-}
-
-a:visited {
-    color: firebrick;
-}
-
-a:hover {
-    background: darkslateblue;
-    color: white;
-    text-decoration: none;
-}
-
-a:active {
-    background: darkslategray;
-    color: white;
-    text-decoration: none;
-}
-
-input:checked + p {
-  background: red;
-}
-
-input:not(:checked) + p {
-    background-color: yellow;
-}
-
-.pai .lista li:last-child {
-    background: red;
-}
-
-input:required {
-    background: red;
-}
-
-p:not(.meio) {
-    color: blue;
+p:nth-child(3n+10) {
+    background-color: darkred;
 }
