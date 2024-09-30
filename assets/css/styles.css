@@ -1,28 +1,17 @@
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.pai {
-    width: 50rem;
-    height: 100vh;
-    background-color: yellow;
-    overflow: hidden;
-}
-
-.pai > div {
-    width: 50%;
-    height: 50rem;
-    background-color: blue;
-}
-
 p {
-    font-size: 2vmax;
+    font-size: 30px;
+    /* font-style: italic;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px; */
+    line-height: 30px;
+    text-align: left;
+    /* text-decoration: line-through; */
+    /* text-indent: 50px; */
+    text-shadow: -1px -1px 1px red;
+    text-transform: capitalize;
+
 }
 
 
